@@ -1,0 +1,11 @@
+# Dependencies
+package-lock.json
+node_modules
+
+# Editor
+.vscode/
+.idea
+
+examples/**/*.js
+build/
+dist/

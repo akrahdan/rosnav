@@ -1,0 +1,20 @@
+// Contents of the file /tsconfig.json
+{
+    "compilerOptions": {
+      "moduleResolution": "node",
+      "removeComments": false,
+      "sourceMap": true,
+      "allowSyntheticDefaultImports": true,
+      "strictPropertyInitialization": false,
+      "downlevelIteration": true,
+      "target": "es2018",
+      "outDir": "build/dist",
+      "declaration": true,
+      "strict": true,
+      "module": "esnext",
+      "noEmitOnError": true,
+      "lib": ["es2017", "dom", "ESNext"],
+      "esModuleInterop": false,
+    },
+    "include": ["src"]
+  }
